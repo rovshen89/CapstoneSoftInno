@@ -1,3 +1,4 @@
+## Project - Capstone NAU
 
 ### Please make sure you update version of the below<br>
 Java version:11+<br>
@@ -15,7 +16,7 @@ Mac OS: file->Project Structure->Project->select 11 Project SDK and select 11 Pr
 Note: After completing your settings do not forget re start your IntelliJ.
 
 ### Finally, use this command to run the tests:
-## mvn clean test verify -Dcucumber.options="--tags @soft" -Dplatform=windows -DtestApp=web -Dbrowser=chrome -Dmaven=mvn -PINNO -Dapplication=sdma
+#### mvn clean test verify -Dcucumber.options="--tags @soft" -Dplatform=windows -DtestApp=web -Dbrowser=chrome -Dmaven=mvn -PINNO -Dapplication=sdma
    
 
 
