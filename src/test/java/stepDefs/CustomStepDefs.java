@@ -1,6 +1,5 @@
 package stepDefs;
 
-import PageFactory.Sample.HomePage;
 import Utilities.AutomationContext;
 import Utilities.WebElementMgr;
 import io.cucumber.java.en.Then;
@@ -45,12 +44,6 @@ public class CustomStepDefs {
         }
         if(!pass) throw new Exception ("Validation failed. Check outputs!");
 
-    }
-
-    @Then("^I click practice btn from \"(.*)\"$")
-    public void clickpractice(String page) {
-        if (page.equals("Home Page"))
-            HomePage.clickPractice();
     }
 
 

@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
         glue = {"stepDefs"},
         plugin = {"pretty", "json:target/cucumber.json",
         },
-        tags = {"@Ykaya"}
+        tags = {"@soft"}
 
 )
 public class UIRunCukes extends AbstractTestNGCucumberTests {
