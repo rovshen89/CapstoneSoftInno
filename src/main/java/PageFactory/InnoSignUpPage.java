@@ -20,6 +20,4 @@ public class InnoSignUpPage {
 
     @FindBy(how = How.XPATH, using = "//div[@class = 'close-animatedModal']/span")
     public static WebElement closeBtnSoft;
-
-
 }

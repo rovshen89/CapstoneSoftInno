@@ -3,8 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.buffsci</groupId>
-    <artifactId>SDMA</artifactId>
+    <groupId>com.capstone</groupId>
+    <artifactId>INNO</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>
@@ -13,7 +13,6 @@
             <version>2.0.0.0</version>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -133,7 +132,7 @@
                 not fail when a test fails
                 -->
                 <configuration>
-                    <testFailureIgnore>true</testFailureIgnore>
+                    <testFailureIgnore>false</testFailureIgnore>
                 </configuration>
             </plugin>
             <!-- Default cucumber plugin that prevents IDE from switching to lower versions of java or maven -->
@@ -151,7 +150,7 @@
     </build>
     <profiles>
         <profile>
-            <id>SDMA</id>
+            <id>INNO</id>
             <activation>
                 <activeByDefault>false</activeByDefault>
             </activation>

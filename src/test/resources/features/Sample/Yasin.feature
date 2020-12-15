@@ -1,5 +1,5 @@
 #Feature: Yasin tests
-#  @Ykaya
+#  @rnur
 #  Scenario: Main Login
 #    Given I am on the YasinHomePage page
 #    When I wait for loadLogin to be visible
@@ -13,7 +13,7 @@
 #    Then I wait for 1000 milliseconds
 #    Then I validate current page url is "https://hr-staging.buffsci.org/home"
 #
-#  @Ykaya
+#  @rnur
 #  Scenario: Main Top Login
 #    Given I am on the YasinHomePage page
 #    When I wait for topLoadButton to be visible
@@ -26,7 +26,7 @@
 #    Then I click on loginButton
 #    Then I validate current page url is "https://hr-staging.buffsci.org/home"
 #
-#  @SDMA40 @Ykaya
+#  @SDMA40 @rnur
 #  Scenario:I want to see Positions Page with positions listed on the page.
 #    Given I am on the YasinHomePage page
 #    When I login
@@ -125,7 +125,7 @@
 #    Then I validate createdNewPositionTitle text is "KayaTest"
 #    Then I click on deleteCreatedPositionTitle
 #    Then I click on confirmToDelete
-#  @SDMA48 @Ykaya
+#  @SDMA48 @@rnur
 #  Scenario:I want to delete a position on position page
 #    Given I am on the YasinHomePage page
 #    When I login

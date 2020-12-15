@@ -1,11 +1,12 @@
 .idea/
-BuffaloAcademyofScienceCucumberBDD.iml
 allure-report/
 rerun/
 target/
 allure-results/
-SDMA.iml
 .DS_Store
+INNO.iml
+debug.log
+
 
 
 

@@ -137,14 +137,14 @@ public class CommonStepDefs {
             loadLogin.sendKeys(Keys.RETURN);
         }
         Thread.sleep(1000);
-        emailSection.sendKeys("admin@staging-buffsci.org");
+        emailSection.sendKeys("signucin@gmail.com");
         Thread.sleep(1000);
-        passwordSection.sendKeys("admin123test");
+        passwordSection.sendKeys("As112233");
         Thread.sleep(1000);
         loginButton.click();
         Thread.sleep(1000);
         String actualUrl=Driver.getDriver().getCurrentUrl();
-        String expectedUrl="https://hr-testing.buffsci.org/home";
+        String expectedUrl="https://www.softinnovas.com/";
 
         if (!expectedUrl.equals(actualUrl)) {
             context.getScenarioManager().getScenario().write(" Fail; \n Expected url: " +expectedUrl + " \n Found url: " + actualUrl);

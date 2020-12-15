@@ -156,6 +156,12 @@ public class ValidationStepDefs {
         }
     }
 
+    @Then("header menu text (\\w+) should be displayed")
+    public void header_menu_text_should_be_displayed(String headerText) throws Exception {
+
+    }
+
+
 
 
 }
